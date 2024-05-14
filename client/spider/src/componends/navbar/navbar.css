@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+    box-sizing: border-box;
+    outline: none;
+}
+.navbar {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: rgb(18, 18, 18);
+    padding: 10px 150px;
+    position: sticky;
+    box-shadow: 0 5px 4px rgba(116, 115, 115, 0.6);
+    height: 96px;
+    gap: 18px;
+  }
+  .logo{
+    width: 8%;
+  }
+
+  .logo img {
+    height: 45px;
+    width: auto;
+  }
+  
+ 
+  .search-bar {
+    width: 58%;
+    display: flex;
+    background-color: #d2d5d7;
+    border-radius: 5px;
+    
+  }
+  .search-bar img{
+    padding-left: 20px;
+  }
+  .search-bar input {
+    width: 100%;
+    padding: 12px; 
+    height: 50px;
+    margin-right: 10px;
+    border: none;
+    font-size: 1rem;
+    background: transparent;
+  }
+  
+  .search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
+  .right-section {
+    padding-left: 8.5%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .right-section img{
+    width: 28px;
+  }
+  
+ 
+  .login-signup button {
+    background-color: #ffbe00;
+    border-radius: 4px;
+    padding: 11px 18px 11px 0;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    width: 162px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    color: #20262e;
+    border: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .search-bar {
+      margin-top: 10px;
+      order: 3; 
+    }
+  
+    .right-section {
+      margin-top: 10px;
+      order: 2; 
+    }
+  
+    .login-signup {
+      order: 1; 
+    }
+  }
+  
