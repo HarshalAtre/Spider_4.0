@@ -1,0 +1,21 @@
+
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 135px;
+    padding-bottom: 30px;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  .nav-item {
+    padding: 0 40px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
