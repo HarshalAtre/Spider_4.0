@@ -5,40 +5,42 @@ body{
 .container{
     height: 100vh;
     width: 100vw;
-    /* background-color: rgb(212, 212, 212);  */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    align-items: center;
 }
 .cards{
 
-display: flex;
+/* display: flex;
 justify-content: center;
 align-items: center;
 flex-wrap: wrap;
-align-content: center;
-background-color: #e1d2a3;
-padding: 3%;
+align-content: center; */
+background-color: #FDF5B8;
+padding: 6%;
 gap: 2em;
 overflow: hidden ;
+width: 94vw;
 }
-.card{
-    padding:15px;
-    height: 15%;
-    width: 18%;
+.card-i{
+    padding: 16px;
+  height: 21%;
+  width: 94% !important;
     background-color: white;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display: flex;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(159, 149, 149, 0.13), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex !important;
     flex-direction: column;
     justify-content: left;
     align-content: start;
     overflow: hidden;
-    gap: 10px;
+    gap: 20px;
+    overflow: hidden ;
 }
-.card img{
-    width: 9vw;
+.image{
+    width: 12vw;
   padding-left: 4vw;
 }
     
@@ -49,15 +51,16 @@ overflow: hidden ;
     padding: 0.7em;
     border-radius:2px ;
     border: 0;
+    width: 100%;
 }
-.logo{
+.logo-s {
+    display: inline !important;
     width: 12.071px;
-  height: 12.998px;
-  
-  margin-left: -114px;
-  margin-right: -64px;
-}
-.card span{
+    height: 12.998px;
+    margin-left: 8px;
+    margin-right: 6px;
+  }
+.card-i span{
     margin-top: 0px;
     margin-bottom: 0px;
 }
