@@ -9,7 +9,7 @@ import logo from './logo.svg'
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">
+      <div className="Navlogo">
         <img src={logo} alt="MuscleBlaze Logo" />
       </div>
       <div className="search-bar">
