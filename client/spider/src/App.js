@@ -1,6 +1,7 @@
 
 
 import Cards from './Components/Cards';
+import Video from './Components/Video';
 import Navbar from './componends/navbar/navbar';
 
 const cardData = [
@@ -39,7 +40,8 @@ function App() {
   return (
     <>
     <Navbar />
-    <Cards cardData={cardData}/>
+    {/* <Cards cardData={cardData}/> */}
+    <Video/>
     </>
   );
 }
