@@ -1,0 +1,84 @@
+
+  
+  .maincontainer {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    width: 100vw;
+    height: 320px;
+    background: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .thecard {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 18%;
+    height: 74%;
+    border-radius: 1px;
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+  }
+  
+  .thecard:hover {
+    transform: rotateY(180deg);
+    cursor: pointer;
+  }
+  
+  .thefront {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-image: url("https://img3.hkrtcdn.com/19552/bnr_1955122_o.png");
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 10px; */
+    backface-visibility: hidden;
+    overflow: hidden;
+    /* background: #ffc728; */
+    color: #f6f1f1;
+  }
+  
+  .theback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img3.hkrtcdn.com/19552/bnr_1955122_o.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 10px; */
+    backface-visibility: hidden;
+    overflow: hidden;
+    color: #fffbfb;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+  
+  
+  .thefront h1,
+  .theback h1 {
+    font-family: 'zilla slab', sans-serif;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .thefront p,
+  .theback p {
+    font-family: 'zilla slab', sans-serif;
+    padding: 30px;
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+  }
+  

@@ -1,6 +1,7 @@
 
 
 import Cards from './Components/Cards';
+import Flip from './Components/Flip';
 import Video from './Components/Video';
 import Navbar from './componends/navbar/navbar';
 
@@ -40,8 +41,9 @@ function App() {
   return (
     <>
     <Navbar />
-    {/* <Cards cardData={cardData}/> */}
-    <Video/>
+    {/* <Cards cardData={cardData}/>
+    <Video/> */}
+    <Flip/>
     </>
   );
 }
