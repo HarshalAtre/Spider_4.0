@@ -1,0 +1,44 @@
+.main-c{
+    height: 90vh;
+    width: 100vw;
+    /* background-color: #e03434; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.headin{
+    /* background-color: rgb(140, 255, 0); */
+    height: 20%;
+    width: 77%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.headin h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+    margin-left: 10px;
+}
+.boxes{
+    height: 70%;
+    width: 80%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.box{
+    height: 45%;
+    width: 35%;
+    /* background-color: #e03434; */
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

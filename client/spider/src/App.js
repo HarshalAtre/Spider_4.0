@@ -1,5 +1,7 @@
 import Cards from './Components/Cards';
 import Flip from './Components/Flip';
+import Vid_Up from './Components/Vid_Up';
+import Vid_Down from './Components/Vid_down';
 import Video from './Components/Video';
 import Footer from './componends/footer/footer';
 import Navbar from './componends/navbar/navbar';
@@ -42,11 +44,15 @@ function App() {
   return (
     <>
     <Navbar/> 
-       <Navbar2/>
+       {/* <Navbar2/>
       <Slider/>
-     <Cards cardData={cardData}/>
+     <Cards cardData={cardData}/> */}
+    
+    {/* <Flip/>
+    <Footer/> */}
+    <Vid_Up/>
     <Video/>
-    <Flip/>
+    <Vid_Down/>
     </>
   );
 }
