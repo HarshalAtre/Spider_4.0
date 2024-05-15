@@ -2,6 +2,12 @@ import React from 'react';
 import '../Styles/Flip.css'; 
 const Flip = () => {
   return (
+    <div className="bg">
+        <div className="both">
+            <div className="heading">
+                <div className="bar"></div>
+        <h1>Shop by Level</h1>
+        </div>
     <div className="maincontainer">
       <div className="thecard">
         <div className="thefront">
@@ -29,6 +35,8 @@ const Flip = () => {
           <b>The perfect range for all health gurus who have advanced well into their fitness journey.</b>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 };
