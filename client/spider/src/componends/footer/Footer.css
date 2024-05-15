@@ -1,0 +1,108 @@
+.footer {
+    padding: 30px 0;
+    background-image: url('footer_bg.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(250, 249, 249); 
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5%;
+  }
+  
+  .leftf{
+    display: flex;
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    padding-left: 5%;
+    gap: 30px;
+
+  }
+  .rightf {
+    flex-basis: calc(33.33% - 20px);
+    padding: 20px;
+    
+  }
+  
+  .leftf ul {
+    list-style-type: none;
+    padding: 0;width: 230px;
+  }
+  .leftf ul h4{
+    padding-bottom: 12px;
+  }
+  
+ a {
+    color: rgb(167, 165, 165);
+    text-decoration: none;
+    
+  }
+  
+  .rightf {
+    padding-top: 100px;
+    
+  }
+  
+  .rightf .emailconti {
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .rightf .emailconti input[type="text"],
+  .rightf .emailconti button {
+    font-size: 16px;
+    padding: 8px 12px;
+    border: 2px solid gray;
+    background: transparent;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  .rightf .emailconti button{
+    background-color: rgb(167, 141, 10);
+  }
+  
+  .rightf .contact_item {
+    margin-bottom: 10px;
+  }
+  
+  .rightf .socialcont {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .rightf .socialcont li {
+    margin-right: 10px;
+  }
+  
+  .rightf .socialcont img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .text-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .icons-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons-container img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  
+  .disclaimer {
+    margin-top: 30px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgb(190, 190, 190);
+  }
+  

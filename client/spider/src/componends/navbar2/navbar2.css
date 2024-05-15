@@ -1,9 +1,13 @@
-
+*{
+  /* background-color: white; */
+  color: blackwu65;
+}
 .navbar2 {
     display: flex;
     justify-content: center;
     padding-top: 135px;
     padding-bottom: 30px;
+    /* background-color: blue; */
   }
   
   .nav-list {

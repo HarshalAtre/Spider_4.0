@@ -1,5 +1,6 @@
 import Cards from './Components/Cards';
 import Video from './Components/Video';
+import Footer from './componends/footer/footer';
 import Navbar from './componends/navbar/navbar';
 import Navbar2 from './componends/navbar2/navbar2';
 import Slider from './componends/slider/slider';
@@ -44,6 +45,7 @@ function App() {
       <Slider/>
     {/* <Cards cardData={cardData}/> */}
     <Video/>
+    <Footer/>
     </>
   );
 }
