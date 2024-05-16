@@ -1,0 +1,87 @@
+.container-wrap {
+    background-image: url(https://static1.hkrtcdn.com/mbnext/static/media/common/shop_by_goal_v1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 60px;
+}
+.container-wrap h1{
+    color: white;
+}
+
+.title {
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+.txt-yellow {
+  color: #f1c40f;
+}
+.goals-container {
+  display: flex;
+  justify-content:flex-start;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.goals-container button{
+    border: 2px solid rgb(240, 239, 239);
+}
+.goal-item {
+  display: flex;
+}
+
+.goal-item-tabs {
+    background: transparent;
+    font-size: 1rem;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}  
+  .selected {
+    background-color: #f5f6f7;
+    color: rgb(27, 27, 71);
+  }
+  
+
+.goal-item-tabs-unchecked {
+  background-color: #95a5a6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.goal-description-container {
+  margin-top: 20px;
+}
+
+.selected-setion-desc-area {
+    display: flex;
+    gap: 20%;
+  background-color: #e8e8ec;
+  padding: 3%;
+  border-radius: 10px;
+}
+
+.selected-section-desc-title {
+    font-weight: 900;
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+.selected-setion-desc-area p {
+  font-size: 1.1rem;
+}
+
+.selected-setion-icon {
+  display: block;
+  width: 100px;
+  height: auto;
+  border-radius: 5px;
+}
