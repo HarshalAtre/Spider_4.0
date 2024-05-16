@@ -8,6 +8,7 @@ import Navbar from './componends/navbar/navbar';
 import Navbar2 from './componends/navbar2/navbar2';
 import Slider from './componends/slider/slider';
 import Shopbygoal from './componends/shopby/shopbygoal';
+import Abfooter from './componends/abovefooter/abfooter';
 
 const cardData = [
   {
@@ -45,15 +46,16 @@ function App() {
   return (
     <>
     <Navbar/> 
-       <Navbar2/>
-      <Slider/>
-     <Cards cardData={cardData}/>
-     <Shopbygoal/>
+    <Navbar2/>
+    <Slider/>
+    <Cards cardData={cardData}/>
+    <Shopbygoal/>
     <Flip/>
     <Vid_Up/>
     <Video/>
     <Vid_Down/>
-    <Footer/>op
+    <Abfooter/>
+    <Footer/>
     </>
   );
 }

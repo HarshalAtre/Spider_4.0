@@ -1,0 +1,30 @@
+.abfooter{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.abfooter-cont{
+    background-color: rgb(245, 245, 246);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3%;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.abfooter-item{
+    display: flex;
+    width: 12%;
+    flex-direction: column;
+}
+.abfooter-item img{
+    width: 42%;
+}
+.abfooter .h{
+    background-color: rgb(245, 245, 246);
+    padding: 2%;
+    padding-left: 15%;
+    margin-bottom: 2%;
+}
