@@ -22,4 +22,8 @@
     font-weight: 700;
     cursor: pointer;
   }
-  
+  @media screen and (max-width: 768px) {
+    .navbar2 {
+      display:none;
+    }
+  }
