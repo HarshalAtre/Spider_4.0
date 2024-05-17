@@ -6,7 +6,10 @@ function Video() {
    <div className="main-container">
     
    <div className="vid-container">
-   <div className="txt">#PhirSeZiddKar</div>
+   <div className="head">
+            <div className="bar"></div>
+        <h1 >#PhirSeZiddKar</h1>
+            </div>
      <div className="main-vid">
         {/* <img className='main-img' src="https://img.youtube.com/vi/PibLurC2PTU/0.jpg" alt="" /> */}
      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PibLurC2PTU?si=Wu1yj-8UzZ3wgf0P"  frameborder="0"  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

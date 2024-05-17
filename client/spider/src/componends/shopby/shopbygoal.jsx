@@ -80,7 +80,7 @@ function Shopbygoal() {
             </div>
           <img className="selected-setion-icon" src={selectedGoal.imageSrc} alt={selectedGoal.title + ' Icon'} />
         </div>
-        {/* add cards here */}
+        
       </div>
     </div>
   );

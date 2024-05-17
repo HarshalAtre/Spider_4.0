@@ -10,10 +10,11 @@ function Vid_Up() {
         </div>
         <div className="boxes">
 
-           <img className="box" src="https://img5.hkrtcdn.com/19555/bnr_1955454_o.png" alt="" />
-            <img className="box" src="https://img7.hkrtcdn.com/19555/bnr_1955456_o.png" alt="" />
-            <img className="box" src="https://img3.hkrtcdn.com/19555/bnr_1955462_o.png" alt="" />
-            <img  className="box" src="https://img5.hkrtcdn.com/20599/bnr_2059854_o.png" alt="" />
+        <a className="box" href="https://www.muscleblaze.com/brand/muscleblaze?navKey=BR-539&itracker=w:home|shop-by-brand|;p:1|;c:muscleblaze|;" target="_blank"> <img style={{height:"100%",width:"100%"}} src="https://img5.hkrtcdn.com/19555/bnr_1955454_o.png" alt="" /></a>
+        <a className="box" href="https://www.muscleblaze.com/brand/bgreen?navKey=BR-3369&itracker=w:home|shop-by-brand|;p:2|;c:bgreen|;" target="_blank"> <img style={{height:"100%",width:"100%"}} src="https://img7.hkrtcdn.com/19555/bnr_1955456_o.png" alt="" /></a>
+        <a className="box" href="https://www.muscleblaze.com/brand/mb-fuel-one?navKey=BR-3121&itracker=w:home|shop-by-brand|;p:3|;c:mb-fuel-one|;" target="_blank"> <img style={{height:"100%",width:"100%"}} src="https://img3.hkrtcdn.com/19555/bnr_1955462_o.png" alt="" /></a>
+        <a className="box" href="https://www.muscleblaze.com/categories/fit-foods?navKey=CL-4965&itracker=w:home|shop-by-brand|;p:4|;c:fit-foods|;" target="_blank"> <img style={{height:"100%",width:"100%"}} src="https://img5.hkrtcdn.com/20599/bnr_2059854_o.png" alt="" /></a>
+        
         </div>
     </div>
     </>

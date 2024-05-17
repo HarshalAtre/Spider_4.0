@@ -18,12 +18,21 @@ justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 align-content: center; */
-background-color: #FDF5B8;
+/* background-color: #FDF5B8; */
 padding: 6%;
 gap: 2em;
 overflow: hidden ;
 width: 94vw;
+height: 66vh;
 }
+.lower{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4192df;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
 .card-i{
     padding: 16px;
   height: 21%;
