@@ -21,6 +21,9 @@
     text-align: center;
     text-justify:newspaper;
   }
+  .hide{
+    padding: 0%;
+  }
   .c-img{
     height: 100%;
     width:100%

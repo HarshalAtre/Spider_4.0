@@ -1,4 +1,4 @@
-const cardData1 = [
+export const trending = [
   {
     image: "https://img10.hkrtcdn.com/33802/pck_3380129_c_m.jpg",
     title: "MuscleBlaze Creatine Monohydrate CreAMP & PRE Workout 200 Xtreme 0.22 lb Combo",

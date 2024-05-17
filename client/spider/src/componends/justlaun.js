@@ -1,4 +1,4 @@
-const cardData1 = [
+export const justlaunch = [
     {
       image: "https://img10.hkrtcdn.com/32565/prd_3256409-MuscleBlaze-Biozyme-Whey-PR-2.2-lb-Molten-Chocolate-Cake_c_m.jpg",
       title: "MuscleBlaze Creatine Monohydrate CreAMP & PRE Workout 200 Xtreme 0.22 lb Combo",
@@ -28,11 +28,13 @@ const cardData1 = [
         originalPrice: 1799,
         discount:400
       },
-        image: "",
-        description: "0.88 lb Unflavoured",
-        price: ,
-        originalPrice: ,
-        discount:
+      {
+        image: "https://img10.hkrtcdn.com/32505/prd_3250449-MB-Fuel-One-Sports-Hydr8-PRO-300-g-Zesty-Orange_c_m.jpg",
+        title: "Sports Hydr8 PRO,",
+        description: "300 g  Zesty Orange ",
+        price:"389" ,
+        originalPrice: "549",
+        discount:"160"
       }
 
   ]

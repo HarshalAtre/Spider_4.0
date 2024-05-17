@@ -15,7 +15,9 @@ import { Blockbuster } from './Components/data_1';
 import { Fitness_Budget_Stacks } from './Components/data_1';
 import { MB_Lifestyle } from './Components/data_1';
 import Cat from './Components/Cat';
-
+import { trending } from './componends/trending';
+import { justlaunch } from './componends/justlaun';
+import CombinedComponent from './Components/popular';
 function App() {
   return (
     <>
@@ -23,20 +25,22 @@ function App() {
     <Navbar2/>
     <Slider/>
     <div style={{backgroundImage:"url("+"https://static1.hkrtcdn.com/mbnext/static/media/common/best-selling-desktop-be.svg"+")"}}><Cards title={"Blockbuster Deals"} cardData={Blockbuster}/></div>
-    <div style={{backgroundImage:"url("+"https://static1.hkrtcdn.com/mbnext/static/media/common/popular_v1.svg"+")"}}><Cards title={"Popular"} cardData={popular}/></div>
+    <div style={{backgroundImage:"url("+"https://static1.hkrtcdn.com/mbnext/static/media/common/popular_v1.svg"+")"}}> <CombinedComponent  title={"Popular"} cardData={popular}/> </div>
     <div style={{backgroundImage:"url("+"https://static1.hkrtcdn.com/mbnext/static/media/common/best-selling-desktop-be.svg"+")"}}><Cards  title={"Fitness Budget Stack "} cardData={Fitness_Budget_Stacks}/></div>
     <div style={{backgroundImage:"url("+"https://static1.hkrtcdn.com/mbnext/static/media/common/best-selling-desktop-be.svg"+")"}}><Cards title={"MB Lifestyle"} cardData={MB_Lifestyle}/></div>
-
+    <div style={{backgroundImage:"url("+"https://static1.hkrtcdn.com/mbnext/static/media/common/best-selling-desktop-be.svg"+")"}}><Cards title={"Trending"} cardData={trending}/></div>
+    
     <Fitnessbrac/>
     <Shopbygoal/>
     <Flip/>
+    <div style={{backgroundImage:"url("+"https://static1.hkrtcdn.com/mbnext/static/media/common/best-selling-desktop-be.svg"+")"}}><Cards title={"Just Launch"} cardData={justlaunch}/></div>
     <Vid_Up/>
     <Video/>
     <Vid_Down/>
     <Abfooter/>
     <Footer/>
     {/* <Cat/> */}
-    
+
     </>
   );
 }
