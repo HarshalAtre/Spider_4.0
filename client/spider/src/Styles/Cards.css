@@ -107,14 +107,16 @@ width: 87em;
     height: 20%;
   width: 87% !important;
 }
-/* @media (max-width: 600px) {
-    .container {
-        height: 60vh;
-        width: 166vw;
+ @media (max-width: 600px) {
+    .cards {
+        height: 21em;
+    }
+    .container{
+      height: 68vh;
     }
   }
   
-  
+  /*
     .cards {
         width: 65em;
     height: 25em;

@@ -1,9 +1,9 @@
 .main-c{
-    height: 90vh;
-    width: 100vw;
+    height: 59vh;
+    width: 100%;
     /* background-color: #e03434; */
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
 }
@@ -45,7 +45,7 @@
 }
 @media screen and (max-width: 768px) {
     .box{
-        height: 54%;
+        height: 71%;
         width: 46%;
     }
     .boxes {

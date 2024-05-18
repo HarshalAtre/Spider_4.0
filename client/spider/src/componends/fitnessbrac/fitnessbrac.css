@@ -31,7 +31,8 @@
         width: 35%;
     }
     .bg{
-        height: 42vh;
+        height: 25vh;
+        padding-left: 10%;
     }
     .both{
         height: 180px;
