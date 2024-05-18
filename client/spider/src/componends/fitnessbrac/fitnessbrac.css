@@ -4,6 +4,20 @@
 .thecardss img{
     width: 100%;
 }
+.maincontainer {
+    display: flex;
+    /* position: absolute; */
+    flex-direction: row;
+    justify-content:start;
+    align-items: center;
+    gap: 30px;
+    width: 75vw;
+    height: 320px;
+    background: none;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%, -50%); */
+  }
 @media screen and (max-width: 768px) {
     .maincontainer{
         gap: 3%;

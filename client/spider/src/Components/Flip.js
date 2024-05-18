@@ -6,12 +6,12 @@ const Flip = () => {
         <div className="both">
             <div className="heading">
                 <div className="bar"></div>
-        <h1>Shop by Level</h1>
+        <h1 className='hhe'>Shop by Level</h1>
         </div>
-    <div className="maincontainer">
+    <div className="maincontainer-i">
       <div className="thecard">
         <div className="thefront">
-          <h1>Beginner</h1>
+          <h1 >Beginner</h1>
         </div>
         <div className="theback">
          

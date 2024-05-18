@@ -11,6 +11,7 @@
     display: flex;
     align-items: start;
 }
+
 .vid-container{
     display: flex;
     justify-content: center;
@@ -50,4 +51,17 @@
     height: 120%;
     border-radius: 5px;
     overflow: hidden;
+}
+@media (max-width: 600px) {
+.vid-container{
+    height: 77vh;
+  width: 76vw;
+}
+.main-container{
+    height: 95vh;
+}
+.small-vid{
+    height: 17%;
+  width: 130%;
+}
 }

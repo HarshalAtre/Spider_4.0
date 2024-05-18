@@ -1,124 +1,175 @@
+.bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+  background-image: url("https://static1.hkrtcdn.com/mbnext/static/media/common/shop_by_level.png");
+}
+.heading{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 7px;
+}
+.bar{
+  
+  background-color: #ffbe00;
+  height: 40px;
+  width: 5px;
+}
+.both{
+  width: 75vw;
+  height: 320px;
+  display: flex;
+  /* position: absolute; */
+  flex-direction:column;
+  justify-content:start;
+  
+}
+/* .thecard h1{
+font-size: 40px;
+font-weight: 500;
+line-height: 60px;
+} */
 
- 
- .bg{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 70vh;
-    background-image: url("https://static1.hkrtcdn.com/mbnext/static/media/common/shop_by_level.png");
- }
- .heading{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 7px;
- }
- .bar{
-    
-    background-color: #ffbe00;
-    height: 40px;
-    width: 5px;
- }
- .both{
-    width: 75vw;
-    height: 320px;
-    display: flex;
-    /* position: absolute; */
-    flex-direction:column;
-    justify-content:start;
-    
- }
- .both h1{
-  font-size: 40px;
-  font-weight: 500;
-  line-height: 60px;
- }
-  .maincontainer {
-    display: flex;
-    /* position: absolute; */
-    flex-direction: row;
-    justify-content:start;
-    align-items: center;
-    gap: 30px;
-    width: 75vw;
-    height: 320px;
-    background: none;
-    top: 50%;
-    left: 50%;
-    /* transform: translate(-50%, -50%); */
+.maincontainer-i {
+  display: flex;
+  /* position: absolute; */
+  flex-direction: row;
+  justify-content:start;
+  align-items: center;
+  gap: 30px;
+  width: 75vw;
+  height: 320px;
+  background: none;
+  top: 50%;
+  left: 50%;
+  /* transform: translate(-50%, -50%); */
+}
+
+.thecard {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 23%;
+  height: 90%;
+  border-radius: 1px;
+  transform-style: preserve-3d;
+  transition: all 0.8s ease;
+  
+}
+
+.thecard:hover {
+  transform: rotateY(180deg);
+  cursor: pointer;
+}
+
+.thefront {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-image: url("https://img3.hkrtcdn.com/19552/bnr_1955122_o.png");
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10px; */
+  backface-visibility: hidden;
+  overflow: hidden;
+  /* background: #ffc728; */
+  color: #f6f1f1;
+  background-position: 130%
+}
+
+.theback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img3.hkrtcdn.com/19552/bnr_1955122_o.png");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* border-radius: 10px; */
+  backface-visibility: hidden;
+  overflow: hidden;
+  color: #fffbfb;
+  text-align: center;
+  transform: rotateY(180deg);
+  line-height: 30px;
+}
+
+
+.thefront h1,
+.theback h1 {
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+.thefront p,
+.theback p {
+  font-family: 'zilla slab', sans-serif;
+  padding: 30px;
+  font-weight: normal;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+.maincontainer-i {
+  width: 88vw;
+  height: 107px;
+  gap: 30px;
+}
+.bg{
+  justify-content: start !important;
+}
+.thecard h1 {
+  font-size: 15px !important;
+}
+.theback {
+  background-image: url("https://img3.hkrtcdn.com/19552/bnr_1955122_o.png");
+  transform: rotateY(180deg);
+  line-height: 14px;
+}
+.thefront, .theback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 138%;
+  height: 107%;
+  backface-visibility: hidden;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  padding: 0px;
+}
+.thecard{
+  margin-left: 6px;
+}
+.theback b{
+  
+    font-size: 10px;
+  
+}
+.hhe{
+  font-size: 25px !important;
+  font-weight: 500 !important;
+  line-height: 60px !important;
   }
-  
-  .thecard {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 23%;
-    height: 90%;
-    border-radius: 1px;
-    transform-style: preserve-3d;
-    transition: all 0.8s ease;
-    
-  }
-  
-  .thecard:hover {
-    transform: rotateY(180deg);
-    cursor: pointer;
-  }
-  
-  .thefront {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    background-image: url("https://img3.hkrtcdn.com/19552/bnr_1955122_o.png");
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* border-radius: 10px; */
-    backface-visibility: hidden;
-    overflow: hidden;
-    /* background: #ffc728; */
-    color: #f6f1f1;
-    background-position: 130%
-  }
-  
-  .theback {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url("https://img3.hkrtcdn.com/19552/bnr_1955122_o.png");
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* border-radius: 10px; */
-    backface-visibility: hidden;
-    overflow: hidden;
-    color: #fffbfb;
-    text-align: center;
-    transform: rotateY(180deg);
-    line-height: 30px;
-  }
-  
-  
-  .thefront h1,
-  .theback h1 {
-    font-family: 'zilla slab', sans-serif;
-    padding: 30px;
-    font-weight: bold;
-    font-size: 24px;
-    text-align: center;
-  }
-  
-  .thefront p,
-  .theback p {
-    font-family: 'zilla slab', sans-serif;
-    padding: 30px;
-    font-weight: normal;
-    font-size: 12px;
-    text-align: center;
-  }
-  
+}

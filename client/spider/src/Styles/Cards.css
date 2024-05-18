@@ -121,7 +121,7 @@ width: 87em;
       }
       .headin {
 
-        height: 0% !important;
+        height: 6% !important;
         width: 99% !important;
       }
       .slider-container {
@@ -157,6 +157,7 @@ width: 87em;
         border-radius: 3px;
         margin-left: 3px;
       }
+
     /* .image {
       width: 30vw;
       padding-left: 0;
