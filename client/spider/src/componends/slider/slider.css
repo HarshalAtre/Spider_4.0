@@ -17,7 +17,7 @@
   height: auto;
 }
 @media screen and (max-width: 768px){
-  .slider-container{
-    padding-top: 140px;
+  .slide img{
+    margin-top: 13%;
   }
 }
