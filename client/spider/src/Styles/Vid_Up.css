@@ -42,3 +42,13 @@
     align-items: center;
     flex-direction: column;
 }
+@media screen and (max-width: 768px) {
+    .box{
+        height: 54%;
+        width: 46%;
+    }
+    .boxes {
+        height: 30%;
+        width: 82%;
+    }
+}

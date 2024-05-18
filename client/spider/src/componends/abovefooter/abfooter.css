@@ -28,3 +28,12 @@
     padding-left: 15%;
     margin-bottom: 2%;
 }
+@media screen and (max-width: 768px) {
+    .abfooter .h{
+        padding-left: 10%;
+        font-size: 80%;
+    }
+    .abfooter-item {
+        font-size: 75%;
+    }
+  }

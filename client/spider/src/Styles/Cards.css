@@ -94,8 +94,7 @@ height: 66vh;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-/* For devices with width up to 600px */
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .container {
       height: auto;
     }
@@ -112,22 +111,27 @@ height: 66vh;
     .image {
       width: 30vw;
       padding-left: 0;
+      .card-i {
+        padding: 10px;
+      }
+    
+      .image {
+        width: 40vw;
+      }
+    
+      .toggle-buttons {
+        flex-direction: column;
+        height: auto;
+      }
+      .thecard{
+        width: 37%;
+        height: 91%;
+      }
+      .thefront h1, .theback h1 {
+        font-size: 10px;
+      }
     }
   }
   
-  /* For devices with width up to 400px */
-  @media only screen and (max-width: 400px) {
-    .card-i {
-      padding: 10px;
-    }
-  
-    .image {
-      width: 40vw;
-    }
-  
-    .toggle-buttons {
-      flex-direction: column;
-      height: auto;
-    }
-  }
+ 
   

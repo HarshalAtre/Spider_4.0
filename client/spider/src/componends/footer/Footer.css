@@ -105,4 +105,20 @@
     padding-right: 10%;
     color: rgb(190, 190, 190);
   }
-  
+  @media screen and (max-width: 768px) {
+    .leftf{
+      width: 50%;
+      
+    flex-wrap: wrap;
+      padding-left: 0;
+    }
+    .footer{
+      background-image: url("https://static1.hkrtcdn.com/mbnext/static/media/footer/desktop/mweb_bg.png");
+    }
+    .footer ul{
+      width: -1px;
+    }
+    .rightf{
+      padding-left: 15%;
+    }
+  }
