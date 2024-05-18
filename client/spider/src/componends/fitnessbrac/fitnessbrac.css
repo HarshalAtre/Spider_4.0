@@ -32,7 +32,7 @@
     }
     .bg{
         height: 25vh;
-        padding-left: 10%;
+        padding-left: 1%;
     }
     .both{
         height: 180px;
@@ -40,4 +40,5 @@
     .both h1{
         font-size: 24px;
     }
+    
   }

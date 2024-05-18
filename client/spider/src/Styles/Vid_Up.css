@@ -53,5 +53,7 @@
         width: 82%;
     }
     
-    
+    .main-c{
+        justify-content: center;
+    }
 }
