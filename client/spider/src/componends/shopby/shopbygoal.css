@@ -107,5 +107,10 @@
     margin-top: 20px;
     padding-right: 9%;
 }
-
+.selected-setion-icon {
+ 
+  width: 100px;
+  height: 100px;
+ 
+}
 }

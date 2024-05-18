@@ -25,6 +25,7 @@
         display: flex;
         margin-bottom: 30%;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .thecardss{
         width: 35%;

@@ -29,7 +29,7 @@ body{
     border: 1px solid black;
     border-radius: 5px;
 }
-.ind-btn.selected {
+.ind-btn.selected-1 {
     background-color: black;
     color: white;
   }
@@ -111,7 +111,7 @@ width: 87em;
   
     .card-i {
       width: 90% !important;
-      
+      gap: 10px;
     }
     .headin h1 {
         font-size: 1.5rem !important;
@@ -144,8 +144,8 @@ width: 87em;
         margin-left: 5px;
       }
       .image {
-        width: 12vw;
-        margin-left: 4em;
+        width: 30vw;
+        margin-left: 2em;
       }
       .ind-btn {
         background-color: #ffbf0000;
@@ -157,7 +157,10 @@ width: 87em;
         border-radius: 3px;
         margin-left: 3px;
       }
-
+      .selected-1{
+        font-size: 12px !important;
+        padding: 0% !important;
+      }
     /* .image {
       width: 30vw;
       padding-left: 0;

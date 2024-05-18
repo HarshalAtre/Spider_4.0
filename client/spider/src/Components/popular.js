@@ -76,13 +76,13 @@ const CombinedComponent = ({ cardData, title }) => {
       </div>
       <div className="toggle-buttons">
         <button 
-          className={`ind-btn ${showCards ? 'selected' : ''}`} 
+          className={`ind-btn ${showCards ? 'selected-1' : ''}`} 
           onClick={() => setShowCards(true)} 
         >
           Best Seller
         </button>
         <button 
-          className={`ind-btn ${!showCards ? 'selected' : ''}`} 
+          className={`ind-btn ${!showCards ? 'selected-1' : ''}`} 
           onClick={() => setShowCards(false)} 
         >
           Categories

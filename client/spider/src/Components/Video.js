@@ -18,7 +18,7 @@ function Video() {
        <div className="vid"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/xwKbRWl9OHE?si=ewqxuRfsxGRqGvxu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
        <div className="vid"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/CpOSq4Yi7-4?si=FJJ40Kay0wcrD6S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
        <div className="vid"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/rzubNgrEhtI?si=Bk7Y1EbMWOgujAyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-     </div>
+     </div> 
    </div>
    </div>
    </>
