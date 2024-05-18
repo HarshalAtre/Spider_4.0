@@ -18,6 +18,7 @@
 }
 @media screen and (max-width: 768px){
   .slide img{
-    margin-top: 13%;
+    margin-top: 33%;
+    width: 100%;
   }
 }
