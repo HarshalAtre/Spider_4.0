@@ -71,7 +71,7 @@
 .login-signup button {
   background-color: #ffbe00;
   border-radius: 4px;
-  padding: 11px 18px 11px 0;
+  padding: 11px 18px 11px 0px;
   display: flex;
   -moz-box-pack: center;
   justify-content: center;
@@ -88,16 +88,31 @@
     align-items: stretch;
     padding: 10px 20px;
     height: auto;
+    width: 58%;
   }
+  
+  .Navlogo img {
+    width: 15%;
+    margin-top: 3%;
+}
 
   .search-bar {
     width: 100%;;
+    margin-top: -4%;
   }
 
   .right-section {
     position: fixed;
     top: 15px;
     left:80px;
+    gap: 5%;
+  }
+  .login-signup button{
+    width: 133px;
+    padding: 11px 0px 11px 0px;
+  }
+  .search-bar input {
+    height: 42px;
   }
 }
 

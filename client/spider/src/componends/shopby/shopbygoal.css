@@ -58,7 +58,7 @@
 }
 
 .goal-description-container {
-  margin-top: 20px;
+  margin-top: 110px;
 }
 
 .selected-setion-desc-area {
@@ -87,13 +87,25 @@
 }
 @media screen and (max-width: 768px){
   .container-wrap{
+    margin-top: 25%;
     padding-left: 7%;
-    padding-top: 33px;
+    padding-top: 23px;
+    width: 95%;
   }
   .goal-item-tabs,.selected{
     font-size: 0.8rem;
+    padding: 3%;
   }
   .goals-container {
     padding-top: 10px;
+   
   }
+  .container-wrap{
+    margin-top: 25%;
+  }
+  .goal-description-container {
+    margin-top: 20px;
+    padding-right: 9%;
+}
+
 }
