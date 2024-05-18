@@ -82,3 +82,16 @@
     font-weight: 700;
     cursor: pointer;
 }
+@media screen and (max-width: 768px){
+    .btn-1{
+        font-size: 90%;
+        height: 40%;
+        width: 45%;
+    }
+    .t-1,.t-2{
+        font-size: 90%;
+        width: 30%;
+        height: 40%;
+    }
+    
+}

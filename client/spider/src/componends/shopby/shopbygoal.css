@@ -85,3 +85,15 @@
   height: auto;
   border-radius: 5px;
 }
+@media screen and (max-width: 768px){
+  .container-wrap{
+    padding-left: 7%;
+    padding-top: 33px;
+  }
+  .goal-item-tabs,.selected{
+    font-size: 0.8rem;
+  }
+  .goals-container {
+    padding-top: 10px;
+  }
+}

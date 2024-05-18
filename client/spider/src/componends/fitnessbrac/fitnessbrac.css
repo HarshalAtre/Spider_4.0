@@ -4,3 +4,21 @@
 .thecardss img{
     width: 100%;
 }
+@media screen and (max-width: 768px) {
+    .maincontainer{
+        gap: 3%;
+        height: 150px;
+    }
+    .thecardss{
+        width: 27%;
+    }
+    .bg{
+        height: 42vh;
+    }
+    .both{
+        height: 180px;
+    }
+    .both h1{
+        font-size: 34px;
+    }
+  }
