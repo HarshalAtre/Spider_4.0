@@ -89,6 +89,10 @@
     padding: 10px 20px;
     height: auto;
     width: 62%;
+<<<<<<< Updated upstream
+=======
+    position: fixed;
+>>>>>>> Stashed changes
   }
   
   .Navlogo img {
