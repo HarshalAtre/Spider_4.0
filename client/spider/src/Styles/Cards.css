@@ -16,6 +16,7 @@ body{
     height: 20%;
   width: 77%;
   display: flex;
+  padding-left: 10%;
   flex-direction: row;
   align-items: center;
   gap: 10px;
