@@ -96,7 +96,11 @@ const CombinedComponent = ({ cardData, title }) => {
             </Slider>
           </div>
         ) : (
-          renderCategories()
+            
+           
+              renderCategories()
+           
+          
         )}
       </div>
       <div className="lower">See All Products {">"} </div>

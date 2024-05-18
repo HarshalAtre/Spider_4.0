@@ -1,6 +1,6 @@
 body{
     background-color: white;
-
+    /* overflow: hidden; */
 }
 .container{
     height: 100vh;
@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .toggle-buttons{
     height: 20%;
@@ -43,8 +44,10 @@ align-content: center; */
 padding: 6%;
 gap: 2em;
 overflow: hidden ;
-width: 94vw;
-height: 66vh;
+/* width: 94vw;
+height: 66vh; */
+width: 87em;
+  height: 31em;
 }
 .lower{
     font-size: 1rem;
@@ -97,26 +100,74 @@ height: 66vh;
 /* For devices with width up to 600px */
 @media only screen and (max-width: 600px) {
     .container {
-      height: auto;
+        height: 60vh;
+        width: 166vw;
     }
   
     .cards {
-      height: auto;
-      padding: 2%;
+        width: 65em;
+    height: 25em;
+    padding: 0%;
     }
   
     .card-i {
       width: 90% !important;
+      
     }
-  
-    .image {
+    .headin h1 {
+        font-size: 1.5rem !important;
+        font-weight: 600 !important;
+        color: #000 !important;
+        margin-left: 10px !important;
+      }
+      .headin {
+
+        height: 0% !important;
+        width: 99% !important;
+      }
+      .slider-container {
+        padding-top: 70px !important;
+      }
+      .lower{
+        width: 64%;
+      }
+      .card p{
+        font-size: 15px;
+      }
+      .toggle-buttons {
+        height: 0%;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        margin-top: 3em;
+        margin-left: 5px;
+      }
+      .image {
+        width: 12vw;
+        margin-left: 4em;
+      }
+      .ind-btn {
+        background-color: #ffbf0000;
+        color: black;
+        font-weight: 600;
+        height: 33px;
+        width: 104px;
+        border: 1px solid black;
+        border-radius: 3px;
+        margin-left: 3px;
+      }
+    /* .image {
       width: 30vw;
       padding-left: 0;
     }
-  }
+    
+  } 
+*/}
   
   /* For devices with width up to 400px */
-  @media only screen and (max-width: 400px) {
+  /* @media only screen and (max-width: 400px) {
     .card-i {
       padding: 10px;
     }
@@ -129,5 +180,5 @@ height: 66vh;
       flex-direction: column;
       height: auto;
     }
-  }
+  } */
   

@@ -21,8 +21,8 @@ import CombinedComponent from './Components/popular';
 function App() {
   return (
     <>
-    <Navbar/> 
-    <Navbar2/>
+    {/* <Navbar/> 
+    <Navbar2/> */}
     <Slider/>
     <div style={{backgroundImage:"url("+"https://static1.hkrtcdn.com/mbnext/static/media/common/best-selling-desktop-be.svg"+")"}}><Cards title={"Blockbuster Deals"} cardData={Blockbuster}/></div>
     <div style={{backgroundImage:"url("+"https://static1.hkrtcdn.com/mbnext/static/media/common/popular_v1.svg"+")"}}> <CombinedComponent  title={"Popular"} cardData={popular}/> </div>

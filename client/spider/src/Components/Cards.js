@@ -36,7 +36,7 @@ export default function SimpleSlider({cardData,title}) {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 2000,
     pauseOnHover: true
   };
