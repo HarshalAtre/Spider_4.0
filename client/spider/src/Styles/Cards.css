@@ -3,7 +3,7 @@ body{
     /* overflow: hidden; */
 }
 .container{
-    height: 100vh;
+    height: 145vh ;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -49,6 +49,11 @@ height: 66vh; */
 width: 87em;
   height: 31em;
 }
+.cards {
+    width: 65em;
+    height: 37em;
+    padding: 0%;
+  }
 .lower{
     font-size: 1rem;
     font-weight: 600;
@@ -72,10 +77,10 @@ width: 87em;
     gap: 20px;
     overflow: hidden ;
 }
-.image{
-    width: 12vw;
-  padding-left: 4vw;
-}
+.image {
+    width: 13vw !important;
+    margin-left: -1em !important;
+  }
     
 
 .btn{
@@ -97,7 +102,7 @@ width: 87em;
     margin-top: 0px;
     margin-bottom: 0px;
 }
-@media screen and (max-width: 768px) {
+/* @media (max-width: 600px) {
     .container {
         height: 60vh;
         width: 166vw;
@@ -162,7 +167,7 @@ width: 87em;
       .selected-1{
         font-size: 12px !important;
         padding: 0% !important;
-      }
+      } */
     /* .image {
       width: 30vw;
       padding-left: 0;
@@ -191,7 +196,7 @@ width: 87em;
 }
   
   /* For devices with width up to 400px */
-  /* @media only screen and (max-width: 400px) {
+   /* @media only screen and (max-width: 400px) {
     .card-i {
       padding: 10px;
     }
@@ -204,5 +209,5 @@ width: 87em;
       flex-direction: column;
       height: auto;
     }
-  } */
-  
+  }  */
+   
