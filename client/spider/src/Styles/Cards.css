@@ -102,6 +102,8 @@ width: 87em;
         height: 60vh;
         width: 166vw;
     }
+  }
+  
   
     .cards {
         width: 65em;
@@ -186,7 +188,7 @@ width: 87em;
     }
     
   } 
-*/}
+}
   
   /* For devices with width up to 400px */
   /* @media only screen and (max-width: 400px) {

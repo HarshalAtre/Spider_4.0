@@ -88,7 +88,11 @@
     align-items: stretch;
     padding: 10px 20px;
     height: auto;
-    width: 58%;
+    width: 62%;
+<<<<<<< Updated upstream
+=======
+    position: fixed;
+>>>>>>> Stashed changes
   }
   
   .Navlogo img {
